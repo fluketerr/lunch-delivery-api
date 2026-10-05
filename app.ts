@@ -1,0 +1,14 @@
+import express from "express";
+import { router as order } from "./controller/order";
+
+export const app = express();
+// แปลงข้อมูลแบบข้อความทั่วไป (Text Body)
+app.use(express.text());
+// แปลงข้อมูลรูปแบบ JSON (JSON Body)
+app.use(express.json());
+
+app.use("/orders", order); 
+
+app.use("/", (req, res) => {
+  res.send("This is API server for practice project");
+});
