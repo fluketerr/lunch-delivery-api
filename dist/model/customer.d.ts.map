@@ -1,0 +1,1 @@
+{"version":3,"file":"customer.d.ts","sourceRoot":"","sources":["../../model/customer.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,QAAQ;IACvB,WAAW,EAAE,MAAM,CAAC;IACpB,IAAI,EAAE,MAAM,CAAC;IACb,KAAK,EAAE,MAAM,CAAC;IACd,OAAO,EAAE,MAAM,CAAC;IAChB,QAAQ,EAAE,MAAM,CAAC;IACjB,SAAS,EAAE,MAAM,CAAC;CACnB"}

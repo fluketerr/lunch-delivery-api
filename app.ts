@@ -14,3 +14,4 @@ app.use("/customers", customer);
 app.use("/", (req, res) => {
   res.send("This is API server for practice project");
 });
+
