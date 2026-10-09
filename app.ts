@@ -1,5 +1,6 @@
 import express from "express";
 import { router as order } from "./controller/order";
+import { router as customer } from "./controller/customer";
 
 export const app = express();
 // แปลงข้อมูลแบบข้อความทั่วไป (Text Body)
@@ -8,6 +9,7 @@ app.use(express.text());
 app.use(express.json());
 
 app.use("/orders", order); 
+app.use("/customers", customer);
 
 app.use("/", (req, res) => {
   res.send("This is API server for practice project");
